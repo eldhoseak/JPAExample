@@ -14,6 +14,7 @@
       <property name="hibernate.connection.password" value="" />
       <property name="hibernate.connection.url" value="jdbc:h2:${project.basedir}/db/jpa-example" />
       <property name="hibernate.max_fetch_depth" value="3" />
+      <property name="hibernate.hbm2ddl.auto" value="create"/>
     </properties>
   </persistence-unit>
 </persistence>
